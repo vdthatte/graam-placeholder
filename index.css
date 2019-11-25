@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .mainHeading{
+  	font-size: 14vw;
+  	position: fixed;
+  	text-align: left;
+  	width: 90%;
+  	right: 0;
+  	top: 0;
+  	margin-top: 15%;
+  }
+
+  .descriptionHeading{
+  	font-size: 8vw;
+  	font-family: 'Inconsolata', monospace;
+  	position: fixed;
+  	text-align: left;
+  	width: 80%;
+  	left: 10%;
+  	top: 0;
+  	margin-top: 120%;
+  }
+
+   body { 
+   	text-align: center; 
+   	padding: 150px; 
+   	background-color: black;
+   }
+
+  	h1 { 
+  		font-size: 50px; 
+  	}
+  
+  	body { 
+  		font: 1vw Helvetica, 
+  		sans-serif; color: #C9C9C9;
+  	}
+
+  	a { 
+  		color: #FF0000; 
+  		text-decoration: none; 
+  	}
+  
+  	a:hover { 
+  		color: #dc8100; 
+  		text-decoration: none; 
+  	}
+
+  	.background{
+  		position: fixed;
+  		left: 0;
+  		top: 0;
+  		margin-top: 15%;
+  		z-index: -999;
+  		width: 500px;
+  	}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .mainHeading{
+  	font-size: 6vw;
+  	position: fixed;
+  	text-align: left;
+  	width: 70%;
+  	right: 0;
+  	top: 0;
+  	margin-top: 15%;
+  }
+
+  .descriptionHeading{
+  	font-size: 1.5vw;
+  	font-family: 'Inconsolata', monospace;
+  	position: fixed;
+  	text-align: left;
+  	width: 70%;
+  	right: 0;
+  	top: 0;
+  	margin-top: 30%;
+  }
+
+   body { 
+   	text-align: center; 
+   	padding: 150px; 
+   	background-color: black;
+   }
+
+  	h1 { 
+  		font-size: 50px; 
+  	}
+  
+  	body { 
+  		font: 1vw Helvetica, 
+  		sans-serif; color: #C9C9C9;
+  	}
+
+  	a { 
+  		color: #FF0000; 
+  		text-decoration: none; 
+  	}
+  
+  	a:hover { 
+  		color: #dc8100; 
+  		text-decoration: none; 
+  	}
+
+  	.background{
+  		position: fixed;
+  		left: 0;
+  		top: 0;
+  		z-index: -999;
+  		width: 500px;
+  	}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+  .mainHeading{
+  	font-size: 7vw;
+  	position: fixed;
+  	text-align: left;
+  	width: 60%;
+  	right: 0;
+  	top: 0;
+  	margin-right: 10%;
+  	margin-top: 10%;
+  }
+
+  .descriptionHeading{
+  	font-size: 2vw;
+  	font-family: 'Inconsolata', monospace;
+  	position: fixed;
+  	text-align: left;
+  	width: 70%;
+  	right: 0;
+  	top: 0;
+  	margin-top: 38%;
+  }
+
+   body { 
+   	text-align: center; 
+   	padding: 150px; 
+   	background-color: black;
+   }
+
+  	h1 { 
+  		font-size: 50px; 
+  	}
+  
+  	body { 
+  		font: 1vw Helvetica, 
+  		sans-serif; color: #C9C9C9;
+  	}
+
+  	a { 
+  		color: #FF0000; 
+  		text-decoration: none; 
+  	}
+  
+  	a:hover { 
+  		color: #dc8100; 
+  		text-decoration: none; 
+  	}
+
+  	.background{
+  		position: fixed;
+  		left: 0;
+  		top: 0;
+  		z-index: -999;
+  		width: 500px;
+  	}
+
+}
